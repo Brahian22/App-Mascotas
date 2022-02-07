@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+@media (max-width: 768px) {
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FEC7D7;
+  }
+  .primerPantalla {
+    background-color: #FEC7D7;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hidden {
+    overflow: hidden;
+  }
+  .inicio1 {
+    background-color: #FEC7D7;
+    height: 100vh;
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inicio1 .img1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .inicio1 .img1 img {
+    margin-top: 30%;
+    margin-bottom: auto;
+  }
+  .inicio1 .parrafosinicio1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+  }
+  .inicio1 .parrafosinicio1 h2 {
+    color: #0E172C;
+    font-size: 30px;
+  }
+  .inicio1 .parrafosinicio1 p {
+    color: #535353;
+    font-size: 25px;
+  }
+  .inicio1 .parrafosinicio1 a button {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFE;
+    margin-top: 12%;
+    padding: 2%;
+    width: 65%;
+    border-radius: 100px;
+    border: none;
+    background-color: #0E172C;
+  }
+  .PaginaListar {
+    background-color: #FEC7D7;
+  }
+  .PaginaListar .subtitle1 {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .PaginaListar .titulo h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #0E172C;
+    margin-left: 50px;
+  }
+  .btnmas {
+    width: 100%;
+    height: 110px;
+    background-color: #0E172C;
+    border-radius: 20px;
+  }
+  .btnmas img {
+    float: left;
+    padding: 15px;
+    background-color: #85D1CE;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .btnmas p {
+    color: #FFFFFE;
+    float: right;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: 25px;
+  }
+  .btnperro {
+    width: 250px;
+    margin-left: 50px;
+  }
+  .elementos {
+    background: transparent;
+    display: inline-block;
+  }
+  .elementos img {
+    width: 300px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .navbar {
+    padding: 3%;
+  }
+  .navbar i {
+    font-size: 40px;
+  }
+  .home {
+    margin-left: 10px;
+    text-align: center;
+    width: 170px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .home i {
+    font-size: 28px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+  .nada {
+    height: 100vh;
+  }
+  .titufav h1 {
+    color: #0E172C;
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .heart {
+    text-align: center;
+    width: 270px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .heart i {
+    font-size: 29px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+  .mensaje {
+    text-align: center;
+    width: 270px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .mensaje i {
+    font-size: 29px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+  a {
+    text-decoration: none;
+  }
+  .titumen h1 {
+    color: #0E172C;
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .cajamensaje {
+    color: #0E172C;
+    position: relative;
+    background-color: #FFFFFE;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 2%;
+  }
+  .cajamensaje h1 {
+    text-align: justify;
+  }
+  .cajamensaje h2 {
+    color: #535353;
+    font-size: 25px;
+    position: absolute;
+    right: 120px;
+    top: 25px;
+  }
+  .cajamensaje p {
+    color: #535353;
+    text-align: justify;
+    font-size: 28px;
+  }
+  .cajamensaje img {
+    margin: 15px;
+    float: left;
+    padding: 5px;
+    background-color: #85D1CE;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .cajamensaje i {
+    top: 90px;
+    right: 20px;
+    position: absolute;
+    font-size: 40px;
+  }
+  .iconflecha {
+    margin: 30px;
+    color: #FFFFFE;
+    text-align: center;
+    background-color: #0E172C;
+    font-size: 50px;
+    border-radius: 50%;
+    width: 75px;
+    position: absolute;
+  }
+  .perfil {
+    position: relative;
+    background-color: #FFFFFE;
+    height: 250px;
+  }
+  .perfil img {
+    margin-top: 25px;
+    margin-left: 320px;
+    padding: 5px;
+    background-color: #85D1CE;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .perfil h1 {
+    text-align: center;
+    margin-top: 2%;
+  }
+  .chat {
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .chat h2 {
+    font-size: 22px;
+  }
+  .chat .m1 {
+    border-radius: 25px;
+    padding: 2%;
+    float: right;
+    width: 55%;
+    text-align: left;
+    margin: 35px;
+    background-color: #FFFFFE;
+  }
+  .chat .m1 p {
+    color: #0E172C;
+    font-size: 28px;
+  }
+  .chat .m2 {
+    border-radius: 25px;
+    padding: 2%;
+    float: left;
+    width: 60%;
+    text-align: left;
+    margin: 35px;
+    background-color: #535353;
+    color: #FFFFFE;
+  }
+  .chat .m2 p {
+    font-size: 28px;
+  }
+  .chat .hora2 {
+    position: absolute;
+    left: 340px;
+    top: 225px;
+  }
+  .barratext {
+    border: 1px solid #0E172C;
+    border-radius: 10px;
+    bottom: 10%;
+    height: 7%;
+    margin: 30px;
+    width: 90%;
+    position: absolute;
+    background-color: #FFFFFE;
+  }
+  .barratext p {
+    margin: 15px;
+    font-size: 30px;
+  }
+  .teclado img {
+    margin-top: 18%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FEC7D7;
+  }
+  .primerPantalla {
+    background-color: #FEC7D7;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inicio1 {
+    background-color: #FEC7D7;
+    height: 100vh;
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inicio1 .img1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .inicio1 .img1 img {
+    margin-top: 5%;
+    margin-bottom: auto;
+  }
+  .inicio1 .parrafosinicio1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+  }
+  .inicio1 .parrafosinicio1 h2 {
+    color: #0E172C;
+    font-size: 30px;
+  }
+  .inicio1 .parrafosinicio1 p {
+    color: #535353;
+    font-size: 25px;
+  }
+  .inicio1 .parrafosinicio1 a button {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFE;
+    margin-top: 5%;
+    padding: 2%;
+    width: 65%;
+    border-radius: 100px;
+    border: none;
+    background-color: #0E172C;
+  }
+  .PaginaListar {
+    background-color: #FEC7D7;
+  }
+  .PaginaListar .subtitle1 {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .PaginaListar .titulo h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #0E172C;
+    margin-left: 50px;
+  }
+  .btnmas {
+    width: 100%;
+    height: 110px;
+    background-color: #0E172C;
+    border-radius: 20px;
+  }
+  .btnmas img {
+    float: left;
+    padding: 15px;
+    background-color: #85D1CE;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .btnmas p {
+    color: #FFFFFE;
+    float: right;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: 25px;
+  }
+  .btnperro {
+    width: 250px;
+    margin-left: 50px;
+  }
+  .elementos {
+    background: transparent;
+    display: inline-block;
+  }
+  .elementos img {
+    width: 300px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .navbar {
+    padding: 3%;
+  }
+  .navbar i {
+    font-size: 40px;
+  }
+  .home {
+    margin-left: 10px;
+    text-align: center;
+    width: 170px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .home i {
+    font-size: 28px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+  .nada {
+    height: 100vh;
+  }
+  .titufav h1 {
+    color: #0E172C;
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .heart {
+    text-align: center;
+    width: 270px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .heart i {
+    font-size: 29px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+  .mensaje {
+    text-align: center;
+    width: 270px;
+    padding: 2%;
+    background-color: #0E172C;
+    border-radius: 50px;
+  }
+  .mensaje i {
+    font-size: 29px;
+    text-decoration: none;
+    color: #85D1CE;
+  }
+  a {
+    text-decoration: none;
+  }
+  .titumen h1 {
+    color: #0E172C;
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .cajamensaje {
+    color: #0E172C;
+    position: relative;
+    background-color: #FFFFFE;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 2%;
+  }
+  .cajamensaje h1 {
+    text-align: justify;
+  }
+  .cajamensaje h2 {
+    color: #535353;
+    font-size: 25px;
+    position: absolute;
+    right: 120px;
+    top: 25px;
+  }
+  .cajamensaje p {
+    color: #535353;
+    text-align: justify;
+    font-size: 28px;
+  }
+  .cajamensaje img {
+    margin: 15px;
+    float: left;
+    padding: 5px;
+    background-color: #85D1CE;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .cajamensaje i {
+    top: 90px;
+    right: 20px;
+    position: absolute;
+    font-size: 40px;
+  }
+  .iconflecha {
+    margin: 30px;
+    color: #FFFFFE;
+    text-align: center;
+    background-color: #0E172C;
+    font-size: 50px;
+    border-radius: 50%;
+    width: 75px;
+    position: absolute;
+  }
+  .perfil {
+    position: relative;
+    background-color: #FFFFFE;
+    height: 250px;
+  }
+  .perfil img {
+    margin-top: 25px;
+    margin-left: 320px;
+    padding: 5px;
+    background-color: #85D1CE;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .perfil h1 {
+    text-align: center;
+    margin-top: 2%;
+  }
+  .chat {
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .chat h2 {
+    font-size: 22px;
+  }
+  .chat .m1 {
+    border-radius: 25px;
+    padding: 2%;
+    float: right;
+    width: 55%;
+    text-align: left;
+    margin: 35px;
+    background-color: #FFFFFE;
+  }
+  .chat .m1 p {
+    color: #0E172C;
+    font-size: 28px;
+  }
+  .chat .m2 {
+    border-radius: 25px;
+    padding: 2%;
+    float: left;
+    width: 60%;
+    text-align: left;
+    margin: 35px;
+    background-color: #535353;
+    color: #FFFFFE;
+  }
+  .chat .m2 p {
+    font-size: 28px;
+  }
+  .chat .hora2 {
+    position: absolute;
+    left: 340px;
+    top: 225px;
+  }
+  .barratext {
+    border: 1px solid #0E172C;
+    border-radius: 10px;
+    bottom: 10%;
+    height: 7%;
+    margin: 30px;
+    width: 90%;
+    position: absolute;
+    background-color: #FFFFFE;
+  }
+  .barratext p {
+    margin: 15px;
+    font-size: 30px;
+  }
+  .teclado img {
+    margin-top: 18%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
