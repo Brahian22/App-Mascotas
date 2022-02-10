@@ -135,6 +135,7 @@
     color: #85D1CE;
   }
   .nada {
+    margin: 0;
     height: 100vh;
   }
   .titufav h1 {
@@ -294,9 +295,6 @@
     width: 90%;
     position: absolute;
     background-color: #FFFFFE;
-  }
-  .barratext p {
-    margin: 15px;
     font-size: 30px;
   }
   .teclado img {
@@ -406,6 +404,7 @@
   .btnperro {
     width: 250px;
     margin-left: 50px;
+    opacity: 0.5;
   }
   .elementos {
     background: transparent;
@@ -437,6 +436,7 @@
     color: #85D1CE;
   }
   .nada {
+    margin: 0;
     height: 100vh;
   }
   .titufav h1 {
@@ -602,7 +602,7 @@
     font-size: 30px;
   }
   .teclado img {
-    margin-top: 18%;
+    margin-top: 20%;
     width: 100%;
   }
 }

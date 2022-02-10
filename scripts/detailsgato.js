@@ -1,10 +1,14 @@
 const container = document.querySelector("#contenedor");
 
-let detalleGato = JSON.parse(localStorage.getItem("detalleGato"));
-detalleGato = detalleGato !== null ? detalleGato : "";
+let detalleGato = JSON.parse(localStorage.getItem("mascota"));
+
+// detalleGato = detalleGato !== null ? detalleGato : "";
 
 const getDetalleGato = () => {
-    const {nombre,imagen,raza,edad,historia,id,imgcard} = detalleGato;
+
+    detalleGato.forEach(element => {
+        
+    const {nombre,imagen,raza,edad,historia,id,imgcard} = element;
 
     container.innerHTML += `
     <div class="tarjeta">
@@ -16,7 +20,7 @@ const getDetalleGato = () => {
                     <h1 class="name"> <b>${nombre}</b><img
                             src="https://res.cloudinary.com/ds5jsdvba/image/upload/v1644101011/Mascotas/female_i7cm3j.png"
                             alt=""></h1>
-                    <button id="${id}" class="btnfav" ><i id="${id}" class="bi bi-heart-fill btnfav"></i></button>
+                    <button id="favoritosG" onClick="Pets()" class="btnfav" ><i class="bi bi-heart-fill btnfav"></i></button>
                 </div>
                 <div class="razayedad">
                     <h2><img src="https://res.cloudinary.com/ds5jsdvba/image/upload/v1644101392/Mascotas/raza_qrql1z.png"
@@ -62,27 +66,9 @@ const getDetalleGato = () => {
             </div>
         </div>
   `
+
+});
 }
 
 document.addEventListener('DOMContentLoaded',getDetalleGato)
 
-container.addEventListener('click', async(e) => {
-    const btnfav = e.target.classList.contains('btnfav');
-    console.log(btnfav)
-    const id = e.target.id;
-
-    if(btnfav) {
-        const urlGato = 'http://localhost:5001/Gatos'
-           const lista = await fetch(urlGato);
-           const data = await lista.json();
-
-        const objeto = data.find(gato => gato.id === Number(id));
-        localStorage.setItem("favMas", JSON.stringify(objeto));
-        window.location.href = 'favorites.html';
-
-
-
-    }
-
-
-    })

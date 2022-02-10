@@ -101,6 +101,7 @@ $ColorBlue: #91C1D7;
 
    
    .btnmas {
+       
        width: 100%;
        height: 110px;
        background-color: $DarkBlue;
@@ -171,6 +172,7 @@ $ColorBlue: #91C1D7;
    }
 
    .nada {
+    margin: 0;
     height: 100vh;
    }
 
@@ -359,11 +361,7 @@ $ColorBlue: #91C1D7;
             width: 90%;
             position: absolute;
             background-color: $ColorWhite;
-           
-            p{
-                margin: 15px;
-                font-size: 30px;
-            }
+            font-size: 30px;  
         }
         
         .teclado {
@@ -377,6 +375,7 @@ $ColorBlue: #91C1D7;
 
 
     @media (min-width: 769px) {
+
         body {
             font-family: 'Nunito', sans-serif;
             background-color: $ColorPrimary;
@@ -489,6 +488,9 @@ $ColorBlue: #91C1D7;
         .btnperro {
             width: 250px;
             margin-left: 50px;
+            opacity: 0.5;
+
+            
         }
      
         .elementos {
@@ -531,6 +533,7 @@ $ColorBlue: #91C1D7;
         }
      
         .nada {
+            margin: 0;
          height: 100vh;
         }
      
@@ -728,11 +731,11 @@ $ColorBlue: #91C1D7;
              
              .teclado {
                  img{
-                     margin-top: 18%;
+                     margin-top: 20%;
                      width: 100%;
                  }
      
-             }
+                }
 
 
 

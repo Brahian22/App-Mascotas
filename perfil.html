@@ -18,23 +18,27 @@
     
     <div class="per1">
         <img src="https://res.cloudinary.com/ds5jsdvba/image/upload/v1644211204/Mascotas/juan_awb4je.png" alt="">
-        <h2>Juan Mendez</h2>
+        <h2 id="nameUser"></h2>
         <h3><b>Editar Cuenta</b></h3>
     </div>
     
      
-        <form action="">
+        <form action="" id="formulario">
         <p>Nombre</p>
-        <input type="text">
+        <input type="text" id="name">
     
     
         <p>Apellido</p>
-        <input type="text">
+        <input type="text" id="lastname">
     
         <p>Correo</p>
-        <input type="email">
+        <input type="email" id="email">
    
     <input type="submit" class="boton" value="Guardar">
+
+    <div class="dato-id">
+        <input id="id" type="number" name="id" style="display: none;">
+    </div>
 
 </form>
 
@@ -62,5 +66,8 @@
             </div>
         </nav>
     </footer>
+
+
+<script src="./scripts/Perfil.js"></script>
 </body>
 </html>
