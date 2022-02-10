@@ -104,6 +104,10 @@
   .btnperro {
     width: 250px;
     margin-left: 50px;
+    opacity: 0.5;
+  }
+  .btnperro:hover {
+    opacity: 1;
   }
   .elementos {
     background: transparent;
@@ -289,7 +293,7 @@
   .barratext {
     border: 1px solid #0E172C;
     border-radius: 10px;
-    bottom: 10%;
+    bottom: 3%;
     height: 7%;
     margin: 30px;
     width: 90%;
@@ -406,6 +410,9 @@
     margin-left: 50px;
     opacity: 0.5;
   }
+  .btnperro:hover {
+    opacity: 1;
+  }
   .elementos {
     background: transparent;
     display: inline-block;
@@ -535,7 +542,7 @@
   }
   .perfil img {
     margin-top: 25px;
-    margin-left: 320px;
+    margin-left: 46%;
     padding: 5px;
     background-color: #85D1CE;
     width: 120px;
@@ -590,15 +597,12 @@
   .barratext {
     border: 1px solid #0E172C;
     border-radius: 10px;
-    bottom: 10%;
+    bottom: -25%;
     height: 7%;
-    margin: 30px;
+    margin-left: 5%;
     width: 90%;
     position: absolute;
     background-color: #FFFFFE;
-  }
-  .barratext p {
-    margin: 15px;
     font-size: 30px;
   }
   .teclado img {

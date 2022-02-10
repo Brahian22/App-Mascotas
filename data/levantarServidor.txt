@@ -6,3 +6,4 @@ json-server --watch ./data/dbFavoritos.json --port 5003
 
 json-server --watch ./data/dbUser.json --port 5004
 
+json-server --watch ./data/dbChat.json --port 5005

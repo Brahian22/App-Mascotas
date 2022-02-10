@@ -1,0 +1,10 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "mensaje": "¡Hola! Me encantaría adoptar a Rocky.",
+      "hora": 4,
+      "minutos": 10
+    }
+  ]
+}

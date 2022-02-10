@@ -2,8 +2,6 @@ const container = document.querySelector("#contenedor");
 
 let detallePerro = JSON.parse(localStorage.getItem("mascota"));
 
-// detallePerro = detallePerro !== null ? detallePerro : "";
-
 const getDetallePerro = () => {
 
     detallePerro.forEach(element => {

@@ -1,4 +1,4 @@
-const urlChats = 'http://localhost:3004/chats/';
+const urlChats = 'http://localhost:5005/chats/';
 const mensajes = async () => {
     const resp = await fetch(urlChats);
     const data = await resp.json();
@@ -26,23 +26,21 @@ const chat = () =>{
     }) 
 }
 
-const misMensajes = document.getElementById('misMensajes');
+const misMensajes = document.getElementById('chat');
 let texto = document.createElement('div');
 document.addEventListener('DOMContentLoaded', async (e) => {
     chat();
     const data = await mensajes();
-    // console.log(data);
+    console.log(data);
     data.forEach(element => {
         const {mensaje, hora, minutos} = element;
-        texto.innerHTML += `
-        <div class="envio-mensaje">
-            <p class="hora-envio-mensaje">${hora}:${minutos}</p>
-            <div class="div-text-envio">
-                <p clas="text-mensaje-envio">${mensaje}</p>
-            </div>
-        </div>
+        texto.innerHTML += `<div class="hora2">
+        <h2>${hora}:${minutos}</h2>
+    </div>
+        <div class="m2"> 
+        <p>${mensaje}</p>
+    </div>
         `
-        misMensajes.appendChild(texto);
+    misMensajes.appendChild(texto);
     });
-})
-
+});
